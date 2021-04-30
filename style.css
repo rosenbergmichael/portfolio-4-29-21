@@ -27,8 +27,24 @@ html {
   align-items: center; 
 }
 
-img {
+.section-1-heading {
+  font-size: 6rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #0a06f08c;
+  border-radius: 15px;
+  padding: 0 3rem;
+  margin-bottom: 3rem;
+  letter-spacing: .3rem;
+  /* border-bottom: .4rem solid #fff; */
+  /* border-right: .4rem solid #fff; */
+  text-shadow: .2rem .2rem 1rem #555;
+  transform: skew(-3deg);
+}
+
+.person-img {
   width: 220px;
   height: 280px;
+  border-radius: 15px;
 }
 /* End Section 1 */
