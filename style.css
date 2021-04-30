@@ -49,8 +49,19 @@ html {
   object-fit: cover;
   /* border: .7rem dotted #0a06f08c; */
   background-color: rgba(255, 255, 255, 0.7);
-  padding: .5rem;
+  padding: .3rem;
   /* opacity: .95; */
+}
+
+.person-title {
+  font-size: 3rem;
+  color: #fff;
+  background-color: #0a06f08c;
+  margin: 5rem 0;
+  border-radius: 15px;
+  padding: 0.5rem 3rem;
+  letter-spacing: .2rem;
+  transform: skew(-3deg);
 }
 
 
