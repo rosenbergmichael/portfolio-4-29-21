@@ -10,5 +10,25 @@
   font-weight: 400;  
 }
 
-
+html {
+  font-size: 62.5%;
+}
 /* End Reset and common styles */
+
+/* Secton 1 */
+.section-1 {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(255, 255, 255, .2), rgba(255, 255, 255, .3)), url(images/bg.jpg) center no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+img {
+  width: 220px;
+  height: 280px;
+}
+/* End Section 1 */
