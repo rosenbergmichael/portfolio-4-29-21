@@ -94,8 +94,27 @@ html {
   margin: 0 3rem;
   letter-spacing: .2rem;
   text-transform: uppercase;
+  position: relative;
+  transition: color .2s;
 }
 
+.navbar-link:hover {
+  color: wheat;
+}
 
+.navbar-link::before {
+  content: "";
+  width: 0;
+  height: .2rem;
+  background-color: wheat;
+  position: absolute;
+  right: -15%;
+  bottom: -.3rem;
+  transition: width .2s;
+}
+
+.navbar-link:hover::before {
+  width: 130%;
+}
 
 /* End Navbar */
