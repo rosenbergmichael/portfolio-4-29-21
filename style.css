@@ -87,6 +87,15 @@ html {
   box-shadow: .2rem .2rem .5rem #555;
 }
 
+.navbar-link {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: whitesmoke;
+  margin: 0 3rem;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+}
+
 
 
 /* End Navbar */
