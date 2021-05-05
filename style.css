@@ -31,40 +31,41 @@ html {
 }
 
 .section-1-heading {
-  font-size: 6rem;
-  font-weight: 600;
+  font-size: 5rem;
+  font-weight: 400;
   color: #fff;
   background-color: rgba(51, 51, 51, 0.781);
   /* border-radius: 15px; */
-  padding: 0 3rem;
+  padding: 0 .5rem;
   margin-bottom: 3rem;
-  letter-spacing: .3rem;
+  letter-spacing: .1rem;
   /* border-bottom: .4rem solid #fff; */
   /* border-right: .4rem solid #fff; */
   text-shadow: .2rem .2rem 1rem #555;
-  transform: skew(-3deg);
+  /* transform: skew(-3deg); */
 }
 
 .person-img {
   width: 20rem;
-  height: 26rem;
+  height: 24rem;
   border-radius: 50%;
   object-fit: cover;
   /* border: .7rem dotted #0a06f08c; */
   background-color: rgba(255, 255, 255, 0.7);
-  padding: .3rem;
+  /* padding: .3rem; */
   /* opacity: .95; */
 }
 
 .person-title {
   font-size: 3rem;
+  font-weight: 400;
   color: #fff;
   background-color: rgba(51, 51, 51, 0.781);
   margin: 5rem 0;
   /* border-radius: 15px; */
-  padding: 0.5rem 3rem;
-  letter-spacing: .2rem;
-  transform: skew(-3deg);
+  padding: 0.5rem 0.5rem;
+  letter-spacing: .1rem;
+  /* transform: skew(-3deg); */
 }
 
 .section-1-btn {
