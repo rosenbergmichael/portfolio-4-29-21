@@ -120,6 +120,8 @@ html {
 
 /* End Navbar */
 
+/* Section 2 */
+
 .skills-icons img {
   width: 50px;
   height: 50px;
@@ -131,6 +133,7 @@ html {
 
 .section-2-heading {
   font-size: 4rem;
+  margin-top: 2rem;
 }
 
 .about-me {
@@ -140,8 +143,22 @@ html {
 
 .skill {
   font-size: 4rem;
+  margin-top: 2rem;
 }
 
 .languages {
   font-size: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
+
+.languages div {
+  margin: 0 3rem;
+}
+
+.languages strong {
+  font-weight: 600;
+}
+
+
+/* End Section 2 */
