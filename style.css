@@ -162,7 +162,7 @@ html {
   color: #333;
   margin-top: 3rem;
   margin-bottom: 2rem;
-  border-bottom: .2rem solid #333;
+  /* border-bottom: .2rem solid #333; */
 }
 
 .languages {
@@ -194,14 +194,10 @@ html {
   align-items: center;
 }
 
-/* .section-3-heading {
-  font-size: 4rem;
-  color: #333;
-  letter-spacing: .3rem;
-  border-bottom: .2rem solid #333;
-  margin-bottom: 2rem;
-  /* text-shadow: .2rem .2rem .5rem #555; */
-} */
+.projects-wrapper {
+  width: 80%;
+  flex-wrap: wrap;
+}
 
 
 .project-img {
