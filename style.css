@@ -208,6 +208,7 @@ html {
   background-color: #fff;
   box-shadow: 0.3rem 0.3rem 0.5rem #777;
   position: relative;
+  overflow: hidden;
 }
 
 .project-text {
@@ -215,6 +216,12 @@ html {
   letter-spacing: 0.1rem;
   position: absolute;
   top: -10rem;
+  transition: top .3s;
+}
+
+.project:hover .project-text {
+  top: 4rem;
+  margin-bottom: .1rem;
 }
 
 .project-name {
@@ -231,6 +238,12 @@ html {
 
 .project-img {
   width: 40rem;
+  height: 20rem;
+  transition: opacity .3s;
+}
+
+.project:hover .project-img {
+  opacity: .2;
 }
 
 .project-link {
@@ -242,6 +255,9 @@ html {
   padding: 0 1rem;
   margin-bottom: .2rem;
   margin-top: .3rem;
+  position: absolute;
+  bottom: -5rem;
+  transition: bottom .3s;
 }
 
 .project-git {
@@ -252,6 +268,16 @@ html {
   border: .3rem solid #333;
   padding: 0 1rem;
   margin-bottom: .2rem;
+  position: absolute;
+  bottom: -8rem;
+  transition: bottom .3s;
 }
 
+.project:hover .project-link {
+  bottom: 5rem;
+}
+
+.project:hover .project-git {
+  bottom: 2rem;
+}
 /* End Section 3 */
