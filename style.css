@@ -159,7 +159,7 @@ html {
 .skill {
   font-size: 3rem;
   letter-spacing: .3rem;
-  /* color: #333; */
+  color: #333;
   margin-top: 3rem;
   margin-bottom: 2rem;
   /* border-bottom: .2rem solid #333; */
@@ -209,7 +209,17 @@ html {
   box-shadow: 0.3rem 0.3rem 0.5rem #777;
 }
 
+.project-text {
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
 
+.project-name {
+  font-size: 2.3rem;
+  font-weight: 600;
+  color: #333;
+  text-transform: capitalize;
+}
 
 
 .project-img {
