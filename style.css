@@ -209,6 +209,11 @@ html {
   box-shadow: 0.3rem 0.3rem 0.5rem #777;
   position: relative;
   overflow: hidden;
+  transition: box-shadow .5s;
+}
+
+.project:hover {
+  box-shadow: 1rem 1rem 1rem #777;
 }
 
 .project-text {
@@ -216,6 +221,7 @@ html {
   letter-spacing: 0.1rem;
   position: absolute;
   top: -10rem;
+  z-index: 10;
   transition: top .3s;
 }
 
