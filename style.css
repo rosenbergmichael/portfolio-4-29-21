@@ -299,4 +299,14 @@ html {
   align-items: center;
 }
 
+.footerImg {
+  margin-top: 5rem;
+}
+
+.footerImg img {
+  width: 5rem;
+  height: 5rem;
+  margin: 1.3rem;
+}
+
 /* End Section 4 */
