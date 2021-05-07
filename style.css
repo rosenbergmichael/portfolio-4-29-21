@@ -301,10 +301,11 @@ html {
 
 .section-4 h3 {
   font-size: 2.5rem;
+  margin-top: 2rem;
 }
 
 .section-4 p {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .footerImg {
@@ -314,7 +315,8 @@ html {
 .footerImg img {
   width: 5rem;
   height: 5rem;
-  margin: 1.3rem;
+  margin: .6rem;
+  border-radius: 4px;
 }
 
 /* End Section 4 */
