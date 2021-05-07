@@ -115,6 +115,10 @@ html {
   transition: color .2s;
 }
 
+.change.navbar-link {
+  color: #fff;
+}
+
 .navbar-link:hover {
   color: wheat;
 }
@@ -128,6 +132,10 @@ html {
   right: -15%;
   bottom: -.3rem;
   transition: width .2s;
+}
+
+.change.navbar-link::before {
+  width: 130%;
 }
 
 .navbar-link:hover::before {
