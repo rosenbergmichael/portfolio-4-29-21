@@ -299,6 +299,14 @@ html {
   align-items: center;
 }
 
+.section-4 h3 {
+  font-size: 2.5rem;
+}
+
+.section-4 p {
+  font-size: 1.5rem;
+}
+
 .footerImg {
   margin-top: 5rem;
 }
