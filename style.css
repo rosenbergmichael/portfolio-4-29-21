@@ -333,10 +333,15 @@ html {
 
 /* Responsive */
 @media(max-width: 1200px) {
-  .skills {
-
+  .section-4 {
+    height: 90vh;
   }
+}
 
+@media(max-width: 800px) {
+  .section-4 {
+    height: 100vh;
+  }
 }
 
 /* End Responsive */
