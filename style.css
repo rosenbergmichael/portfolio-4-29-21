@@ -333,15 +333,15 @@ html {
 
 /* Responsive */
 @media(max-width: 1200px) {
-  /* .section-4 {
-    height: 90vh;
-  } */
+  .section-4 {
+    height: 100vh;
+  }
 }
 
 @media(max-width: 800px) {
-  /* .section-4 {
+  .section-4 {
     height: 100vh;
-  } */
+  }
 }
 
 @media(max-width: 600px) {
@@ -363,4 +363,32 @@ html {
   }
 }
 
+@media(max-width: 500px) {
+  html {
+    font-size: 55%;
+  }  
+  
+  .skills-icons img {
+    margin: 0 .6rem;
+  }
+}
+
+@media(max-width: 450px) {
+  html {
+    font-size: 45%;
+  }
+
+  .skills-icons img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .navbar-link {
+    margin: 0 1.5rem;
+  }
+
+  .footerImg {
+    margin-top: 70px;
+  }
+}
 /* End Responsive */
