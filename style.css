@@ -23,12 +23,21 @@ html {
 
 .section-heading {
   font-size: 4rem;
-  color: #333;
+  color: var(--nav-header-text-color);
   letter-spacing: .3rem;
   border-bottom: .2rem solid #333;
   margin-bottom: 2rem;
 }
 /* End Reset and common styles */
+
+/* Colors */
+:root {
+--nav-header-text-color: #333;
+--nav-links: whitesmoke;
+--bkg-color-one: whitesmoke;
+--bkg-color-two: #eef;
+}
+/* End Colors */
 
 /* Secton 1 */
 .section-1 {
@@ -84,7 +93,7 @@ html {
 .navbar {
   width: 100%;
   height: 4rem;
-  background-color: #333;
+  background-color: var(--nav-header-text-color);
   box-shadow: .2rem .2rem .5rem #555;
   position: absolute;
   z-index: 300;
@@ -98,7 +107,7 @@ html {
 .navbar-link {
   font-size: 1.7rem;
   font-weight: 600;
-  color: whitesmoke;
+  color: var(--nav-links);
   margin: 0 3rem;
   letter-spacing: .2rem;
   text-transform: uppercase;
@@ -142,6 +151,14 @@ html {
   font-size: 1.7rem;
 }
 
+/* Variables Dark theme */
+body.dark-theme{
+  --nav-header-text-color: whitesmoke;
+  --nav-links: #333;
+  --bkg-color-one: #333;
+  --bkg-color-two: rgb(95, 93, 93);
+}
+
 /* Section 2 */
 .skills-icons {
   margin-top: 2rem;
@@ -157,7 +174,7 @@ html {
   width: 100%;
   height: 100%;
   padding: 5rem 0 8rem 0;
-  background-color: whitesmoke;
+  background-color: var(--bkg-color-one);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -177,7 +194,7 @@ html {
 .skill {
   font-size: 3rem;
   letter-spacing: .3rem;
-  color: #333;
+  color: var(--nav-header-text-color);
   margin-top: 3rem;
   margin-bottom: 2rem;
 }
@@ -186,6 +203,7 @@ html {
   font-size: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  color: var(--nav-header-text-color);
 }
 
 .languages div {
@@ -202,7 +220,7 @@ html {
   width: 100%;
   height: 100%;
   padding: 5rem 0;
-  background-color: #eef;
+  background-color: var(--bkg-color-two);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -307,7 +325,7 @@ html {
   width: 100%;
   height: 100%;
   padding: 5rem 0 5rem 0;
-  background-color: whitesmoke;
+  background-color: var(--bkg-color-one);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -321,10 +339,12 @@ html {
 .section-4 h3 {
   font-size: 2.5rem;
   margin-top: 2rem;
+  color: var(--nav-header-text-color)
 }
 
 .section-4 p {
   font-size: 1.7rem;
+  color: var(--nav-header-text-color);
 }
 
 .footerImg {
