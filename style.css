@@ -180,6 +180,10 @@ body.dark-theme{
   align-items: center;
 }
 
+.section-2 p {
+  color: var(--nav-header-text-color);
+}
+
 .skills {
   display: flex;
   flex-direction: column;
