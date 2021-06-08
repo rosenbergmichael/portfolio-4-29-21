@@ -134,6 +134,14 @@ html {
 }
 /* End Navbar */
 
+/* Dark/Light Button */
+.change-theme{
+  position: absolute;
+  right: 2rem;
+  cursor: pointer;
+  font-size: 1.7rem;
+}
+
 /* Section 2 */
 .skills-icons {
   margin-top: 2rem;
