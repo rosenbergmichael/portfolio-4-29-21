@@ -160,7 +160,7 @@ body.dark-theme{
   --nav-underline-hover: #333;
   --nav-links: #333;
   --bkg-color-one: #333;
-  --bkg-color-two: rgb(95, 93, 93);
+  --bkg-color-two: rgb(70, 68, 68);
 }
 
 /* Section 2 */
@@ -372,6 +372,8 @@ body.dark-theme{
   .section-4 {
     height: 100vh;
   }
+
+ 
 }
 
 @media(max-width: 800px) {
